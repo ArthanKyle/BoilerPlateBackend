@@ -2,8 +2,10 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Product;
 use App\Services\ProductService;
 use Illuminate\Http\JsonResponse;
+use Illuminate\Http\Request;
 
 class ProductController extends Controller
 {
@@ -14,13 +16,21 @@ class ProductController extends Controller
         $this->productService = $productService;
     }
 
-    public function index(): JsonResponse
+    public function index(Request $request): JsonResponse
     {
-        $products = $this->productService->getAll();
-
+        $query = Product::query();
+    
+        // ✅ Check if category_id is provided in the request
+        if ($request->has('category_id')) {
+            $query->where('category_id', $request->category_id);
+        }
+    
+        $products = $query->get();
+    
         return response()->json([
             'message' => 'Products retrieved successfully',
             'products' => $products
         ], 200);
     }
+    
 }

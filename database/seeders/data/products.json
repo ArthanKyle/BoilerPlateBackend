@@ -1,0 +1,168 @@
+[
+    {
+        "category": "Hoodies",
+        "name": "Akatsuki Hoodie",
+        "slug": "akatsuki-hoodie",
+        "image": "images/akatsuki_hoodie.jpeg",
+        "price": 89.99,
+        "description": "A stylish Akatsuki hoodie for anime fans.",
+        "stock": 15
+    },
+    {
+        "category": "Hoodies",
+        "name": "AOT Hoodie",
+        "slug": "aot-hoodie",
+        "image": "images/aot_hoodie.jpeg",
+        "price": 79.99,
+        "description": "An Attack on Titan hoodie with premium material.",
+        "stock": 20
+    },
+    {
+        "category": "Hoodies",
+        "name": "JJK Hoodie",
+        "slug": "jjk-hoodie",
+        "image": "images/jjk_hoodie.jpeg",
+        "price": 85.00,
+        "description": "A Jujutsu Kaisen-themed hoodie for fans.",
+        "stock": 18
+    },
+    {
+        "category": "Hoodies",
+        "name": "Kaneki Hoodie",
+        "slug": "kaneki-hoodie",
+        "image": "images/kaneki_hoodie.jpeg",
+        "price": 92.50,
+        "description": "A Tokyo Ghoul hoodie featuring Kaneki.",
+        "stock": 10
+    },
+    {
+        "category": "Windbreaker",
+        "name": "Classic Windbreaker",
+        "slug": "classic-windbreaker",
+        "image": "images/classic_windbreaker.jpeg",
+        "price": 99.99,
+        "description": "A retro-style windbreaker for all seasons.",
+        "stock": 25
+    },
+    {
+        "category": "Windbreaker",
+        "name": "Modern Windbreaker",
+        "slug": "modern-windbreaker",
+        "image": "images/modern_windbreaker.jpeg",
+        "price": 109.99,
+        "description": "A sleek, modern windbreaker for outdoor wear.",
+        "stock": 22
+    },
+    {
+        "category": "Shoes",
+        "name": "Jordan 1 Shoes",
+        "slug": "jordan1-shoes",
+        "image": "images/jordan1_shoes.jpeg",
+        "price": 150.00,
+        "description": "Classic Jordan 1 shoes with a timeless look.",
+        "stock": 10
+    },
+    {
+        "category": "Shoes",
+        "name": "Jordan 4 Shoes",
+        "slug": "jordan4-shoes",
+        "image": "images/jordan4_shoes.jpeg",
+        "price": 180.00,
+        "description": "A stylish and comfortable Jordan 4 sneaker.",
+        "stock": 12
+    },
+    {
+        "category": "Shoes",
+        "name": "Kobe 6 Shoes",
+        "slug": "kobe6-shoes",
+        "image": "images/kobe6_shoes.jpeg",
+        "price": 200.00,
+        "description": "A tribute to Kobe Bryant's legacy.",
+        "stock": 8
+    },
+    {
+        "category": "Jackets",
+        "name": "Denim Jacket",
+        "slug": "denim-jacket",
+        "image": "images/denim_jacket.jpeg",
+        "price": 79.99,
+        "description": "A classic denim jacket for a stylish casual look.",
+        "stock": 20
+    },
+    {
+        "category": "Jackets",
+        "name": "Hybrid Jacket",
+        "slug": "hybrid-jacket",
+        "image": "images/hybrid_jacket.jpeg",
+        "price": 95.00,
+        "description": "A modern hybrid jacket combining comfort and style.",
+        "stock": 15
+    },
+    {
+        "category": "Jackets",
+        "name": "Oversized Jacket",
+        "slug": "oversized-jacket",
+        "image": "images/oversized_jacket.jpeg",
+        "price": 85.50,
+        "description": "An oversized jacket for a trendy streetwear vibe.",
+        "stock": 18
+    },
+    {
+        "category": "Jackets",
+        "name": "Puffer Jacket",
+        "slug": "puffer-jacket",
+        "image": "images/puffer_jacket.jpeg",
+        "price": 110.00,
+        "description": "A warm and stylish puffer jacket for cold weather.",
+        "stock": 12
+    },
+    {
+        "category": "Jackets",
+        "name": "Jacket",
+        "slug": "jacket",
+        "image": "images/jacket.jpeg",
+        "price": 70.00,
+        "description": "A versatile jacket suitable for various occasions.",
+        "stock": 25
+    },
+    {
+        "category": "Shorts",
+        "name": "Cargo Shorts",
+        "slug": "cargo-shorts",
+        "image": "images/cargo_shorts.jpeg",
+        "price": 45.00,
+        "description": "Durable cargo shorts for casual wear.",
+        "stock": 30
+    },
+    {
+        "category": "Shorts",
+        "name": "Denim Shorts",
+        "slug": "denim-shorts",
+        "image": "images/denim_shorts.jpeg",
+        "price": 55.00,
+        "description": "Classic denim shorts with a comfortable fit.",
+        "stock": 25
+    },
+    {
+        "category": "Accessories",
+        "name": "Cap Accessories",
+        "slug": "cap-accessories",
+        "image": "images/cap_accessories.jpeg",
+        "price": 19.99,
+        "description": "Stylish caps to match any outfit.",
+        "stock": 40
+    },
+    {
+        "category": "Accessories",
+        "name": "Basketball Accessories",
+        "slug": "basketball-accessories",
+        "image": "images/Basketball_accessories.jpeg",
+        "price": 35.00,
+        "description": "A set of accessories for basketball enthusiasts.",
+        "stock": 15
+    }
+]
+
+
+
+   

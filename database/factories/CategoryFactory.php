@@ -9,6 +9,8 @@ class CategoryFactory extends Factory
 {
     public function definition(): array
     {
+        static $usedCategories = [];
+
         $categories = [
             'Hoodies' => 'akatsuki_hoodie.jpeg',
             'Windbreaker' => 'classic_windbreaker.jpeg',
@@ -18,7 +20,15 @@ class CategoryFactory extends Factory
             'Accessories' => 'bag.jpeg',
         ];
 
-        $name = $this->faker->randomElement(array_keys($categories));
+         // Ensure a unique category is selected
+    $availableCategories = array_diff(array_keys($categories), $usedCategories);
+    
+    if (empty($availableCategories)) {
+        throw new \Exception('All category names have been used, cannot generate more unique categories.');
+    }
+
+        $name = $this->faker->randomElement($availableCategories);
+        $usedCategories[] = $name; // Mark as used
 
         return [
             'name' => $name,

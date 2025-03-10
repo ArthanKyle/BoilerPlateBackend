@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Shoes",
+        "slug": "shoes",
+        "image": "images/shoes.jpeg"
+    },
+    {
+        "name": "Jackets",
+        "slug": "jackets",
+        "image": "images/jacket.jpeg"
+    },
+    {
+        "name": "Shorts",
+        "slug": "shorts",
+        "image": "images/shorts.jpeg"
+    },
+    {
+        "name": "Accessories",
+        "slug": "accessories",
+        "image": "images/bag.jpeg"
+    },
+    {
+        "name": "Hoodies",
+        "slug": "hoodies",
+        "image": "images/akatsuki_hoodie.jpeg"
+    },
+    {
+        "name": "Windbreaker",
+        "slug": "windbreaker",
+        "image": "images/classic_windbreaker.jpeg"
+    }
+]
